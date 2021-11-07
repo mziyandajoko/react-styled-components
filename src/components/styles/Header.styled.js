@@ -13,3 +13,13 @@ export const StyledHeader = styled.header`
         }
     }
     `
+// Navigation styles
+export const Nav = styled.nav`
+    display: flex;
+    align-itmes: center;
+    justify-content: space-between;
+    marign-bottom: 4px;
+    `
+
+    export const Logo = styled.img`
+     `
