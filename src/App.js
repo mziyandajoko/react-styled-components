@@ -11,6 +11,7 @@ const theme = {
     primaryColor: '#203d3f',
     heading: '#FFF'
   },
+  mobile: '768px',
 }
 
 function App() {
