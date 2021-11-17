@@ -1,18 +1,14 @@
-export default function  Card(){
+import { CardStyle } from "./styles/Card.styled"
+export default function  Card({item: {id, title, body, image,}}){
         return (
-            <div>
+            <CardStyle>
                 <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
-tenetur error, harum nesciunt ipsum debitis quas aliquid.</p>
+                <h2>{title}</h2>   
+                <p>{body}</p>
                 </div>
                 <div>
-                    <img src="http://placehold.it/" alt="placeholder" />
+                    <img src={`./images/${image}`} alt="image" />
                 </div>
-            </div>
+            </CardStyle>
         )
 } 
