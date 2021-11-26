@@ -14,6 +14,7 @@ const theme = {
   },
   mobile: '768px',
 }
+
 function App() {
   return (
     <ThemeProvider theme = { theme }>
